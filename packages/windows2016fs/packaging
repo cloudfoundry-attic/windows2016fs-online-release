@@ -1,0 +1,11 @@
+$ErrorActionPreference = "Stop";
+trap { $host.SetShouldExit(1) }
+
+$BOSH_INSTALL_TARGET = Resolve-Path "${env:BOSH_INSTALL_TARGET}"
+
+$image_tag=(cat code.cloudfoundry.org/windows2016fs/IMAGE_TAG)
+$image_name="cloudfoundry/windows2016fs"
+
+c:\var\vcap\packages\hydrate\hydate.exe -image $image_name -outputDir $BOSH_INSTALL_TARGET -tag $image_tag
+
+mv "$BOSH_INSTALL_TARGET\windows2016fs-$image_tag.tgz" "$BOSH_INSTALL_TARGET\windows2016fs.tgz"
