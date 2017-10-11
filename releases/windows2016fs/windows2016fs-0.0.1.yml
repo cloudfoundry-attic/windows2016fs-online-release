@@ -1,0 +1,50 @@
+name: windows2016fs
+version: 0.0.1
+commit_hash: 26bc91d
+uncommitted_changes: false
+jobs:
+- name: windows2016fs
+  version: 22188eb8aee411695cf2e7a5ffdcaf70f01482991110b4d1401c23ae75b8d901
+  fingerprint: 22188eb8aee411695cf2e7a5ffdcaf70f01482991110b4d1401c23ae75b8d901
+  sha1: sha256:30316d24ae9ae8478ff5f60dfa07f590f7eff0e7a007cd688fa990d3938740ad
+packages:
+- name: 7zip
+  version: a836729ad83534cc22df09ef86b5bfa594600679cfc7d88643f14e490d1e8e92
+  fingerprint: a836729ad83534cc22df09ef86b5bfa594600679cfc7d88643f14e490d1e8e92
+  sha1: sha256:a41505bb2eddd368224a61a725d136e6bed2a9d0b71b33886d3a362ee2155e55
+  dependencies: []
+- name: extract
+  version: 73f68b0929ec100dfbc45560b3779db37647d0d7df451550636eb30520599c12
+  fingerprint: 73f68b0929ec100dfbc45560b3779db37647d0d7df451550636eb30520599c12
+  sha1: sha256:afa5cc7eb7c8707a75a6b78bfed7e84edc07cec2c4a27076819f2e9156694911
+  dependencies:
+  - golang-windows
+  - mingw
+- name: golang-windows
+  version: d157615ebdfe681f374cdcc50eca4048a2376c020737c2c6e1d4d100ccf67844
+  fingerprint: d157615ebdfe681f374cdcc50eca4048a2376c020737c2c6e1d4d100ccf67844
+  sha1: sha256:ccd49d55dbe9b71006454ddf2837144f34dba4a2fdd9892d4e4692c1314d01d5
+  dependencies: []
+- name: hydrate
+  version: 36e5c81ed20d7101074d4abfa3e78a6a1d0294be1d3141d812f594c3e28e441e
+  fingerprint: 36e5c81ed20d7101074d4abfa3e78a6a1d0294be1d3141d812f594c3e28e441e
+  sha1: sha256:90fcebe731447257ab09d85487c0c3dccca1759fd92efbc3107874c2369e9634
+  dependencies:
+  - golang-windows
+  - mingw
+- name: mingw
+  version: 0a607767bde4ff5b1f0e3527acc47e71b550f0bb37eed73e6c308ba7f289a588
+  fingerprint: 0a607767bde4ff5b1f0e3527acc47e71b550f0bb37eed73e6c308ba7f289a588
+  sha1: sha256:d3670bc66740855d3fe632421627ab3aa75df06445f700d391ffa06eceaac4da
+  dependencies:
+  - 7zip
+- name: windows2016fs
+  version: b36e387b6e13c15d03dc788067f31eb21f1b1eb88dda1054e2f8c687b2fd1d59
+  fingerprint: b36e387b6e13c15d03dc788067f31eb21f1b1eb88dda1054e2f8c687b2fd1d59
+  sha1: sha256:f056791260487ab8d36c038e8bf403f8c20c7fd1c9803581b46f344f034175a7
+  dependencies:
+  - hydrate
+license:
+  version: a3e03417a7267fe116ddf6eb56ce42ec62919749aca4fb1b333127ab4668cc0d
+  fingerprint: a3e03417a7267fe116ddf6eb56ce42ec62919749aca4fb1b333127ab4668cc0d
+  sha1: sha256:8aad64cd659552dfe2a4399e1ab51a2f8935a5434ff9e256918d09d9725704e5
