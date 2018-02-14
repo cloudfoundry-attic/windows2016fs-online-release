@@ -1,0 +1,44 @@
+name: windows2016fs
+version: 0.0.11
+commit_hash: dfe5393
+uncommitted_changes: false
+jobs:
+- name: windows2016fs
+  version: 5f99dc15bab0c1bffb5bb9176f0f1458c5cc0bc141fc23ea48cb9129b51fc6bc
+  fingerprint: 5f99dc15bab0c1bffb5bb9176f0f1458c5cc0bc141fc23ea48cb9129b51fc6bc
+  sha1: sha256:453c35b1ab77016fec70183cfcae3da313f0065a98d73ebc1a29a2741eb5c3c2
+packages:
+- name: extract
+  version: fc5656f5ca468bc3b2aaca65c09159b69da5f857c3eafc477f520db2159f934d
+  fingerprint: fc5656f5ca468bc3b2aaca65c09159b69da5f857c3eafc477f520db2159f934d
+  sha1: sha256:9918a68e851721a3211fee2a0fa81ef6bed96f028bcc78008a826cab96cba2e4
+  dependencies:
+  - golang-windows
+  - mingw
+- name: golang-windows
+  version: 1acb53f7d911a286382c48a213ce4cf0f4f32019e67e3d53800e3a1670296084
+  fingerprint: 1acb53f7d911a286382c48a213ce4cf0f4f32019e67e3d53800e3a1670296084
+  sha1: sha256:339dc047eb04fc671041cf9c62349a6073fdfc9f9af221aea7e3d317be720e64
+  dependencies: []
+- name: hydrate
+  version: 0cc4a793c507e9d03afce572b2836f0cbe42ba99e22befedc51cc6833816e074
+  fingerprint: 0cc4a793c507e9d03afce572b2836f0cbe42ba99e22befedc51cc6833816e074
+  sha1: sha256:fa45c666a10c377259c7c3a308a1978bdfb375b2418c7a055a56e46a14281767
+  dependencies:
+  - golang-windows
+  - mingw
+- name: mingw
+  version: 27bfa571437899e1be97dbd444282ac66e430bfebd78442b053d7f96743456cc
+  fingerprint: 27bfa571437899e1be97dbd444282ac66e430bfebd78442b053d7f96743456cc
+  sha1: sha256:15abb76aa4e8452e119a0e9e04966f16d7857834f7f8a9e307203dc25e546d2a
+  dependencies: []
+- name: windows2016fs
+  version: ec9dc406d6fc89061971e5347b2633587bac52a3751a000c3daf92ec4e2e5ac9
+  fingerprint: ec9dc406d6fc89061971e5347b2633587bac52a3751a000c3daf92ec4e2e5ac9
+  sha1: sha256:2df74adcf3adcf4cd0c158fc3419fbff6f60cba0fa7f65f67c2d6d6c74c621bc
+  dependencies:
+  - hydrate
+license:
+  version: a3e03417a7267fe116ddf6eb56ce42ec62919749aca4fb1b333127ab4668cc0d
+  fingerprint: a3e03417a7267fe116ddf6eb56ce42ec62919749aca4fb1b333127ab4668cc0d
+  sha1: sha256:8aad64cd659552dfe2a4399e1ab51a2f8935a5434ff9e256918d09d9725704e5
