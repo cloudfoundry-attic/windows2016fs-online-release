@@ -9,8 +9,6 @@ $env:PATH="${env:GOROOT}\bin;${env:PATH}"
 $pkg_name="hydrate"
 $pkg_path="code.cloudfoundry.org/windows2016fs/cmd/hydrate"
 
-$env:PATH="C:\var\vcap\packages\mingw\mingw64\bin;"+$env:Path
-
 New-Item -ItemType "directory" -Force "${BOSH_INSTALL_TARGET}\src"
 
 robocopy.exe /E "${PWD}" "${BOSH_INSTALL_TARGET}\src"
