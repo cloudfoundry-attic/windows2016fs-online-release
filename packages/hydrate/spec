@@ -5,4 +5,4 @@ dependencies:
   - golang-windows
 
 files:
-  - code.cloudfoundry.org/windows2016fs/**/*
+  - code.cloudfoundry.org/hydrator/**/*
