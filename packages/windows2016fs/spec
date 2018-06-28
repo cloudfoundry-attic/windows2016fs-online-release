@@ -5,4 +5,4 @@ dependencies:
   - hydrate
 
 files:
-  - code.cloudfoundry.org/windows2016fs/IMAGE_TAG
+  - code.cloudfoundry.org/windows2016fs/1709/IMAGE_TAG
