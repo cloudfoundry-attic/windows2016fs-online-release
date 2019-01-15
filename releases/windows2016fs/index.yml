@@ -47,4 +47,6 @@ builds:
     version: 1.9.0
   f27bd530-a682-497d-4e51-d212bdc02504:
     version: 1.5.0
+  f4185cab-115b-4e8d-7767-2d4d39d68bfd:
+    version: 1.13.0
 format-version: "2"
