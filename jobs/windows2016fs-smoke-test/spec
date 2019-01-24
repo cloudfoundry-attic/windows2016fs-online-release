@@ -1,11 +1,11 @@
 ---
-name: windows2016fs
+name: windows2016fs-smoke-test
 
 templates:
-  pre-start.ps1.erb: bin/pre-start.ps1
+  run.ps1.erb: bin/run.ps1
 
 packages:
-  - windows2016fs
+  - windows2016s
   - hydrate
 
 consumes:
