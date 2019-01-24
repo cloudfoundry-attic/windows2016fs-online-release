@@ -5,7 +5,7 @@ templates:
   run.ps1.erb: bin/run.ps1
 
 packages:
-  - windows2016s
+  - windows2016fs
   - hydrate
 
 consumes:
